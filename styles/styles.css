@@ -1,0 +1,201 @@
+/* ========================== PREVIEW ======================*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ========================== PREVIEW END ===================*/
+
+
+/* ========================== NAVBAR ======================= */
+
+
+.navbar{
+    top: 1em;
+    position: sticky;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    background-color: rgb(44, 44, 44);
+    color: white;padding: 0;
+
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-brand{
+    width: 12%;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    padding-left: 0.4em;
+    padding-bottom: 10px;
+}
+
+.navbar-brand:hover{
+    color: rgb(184, 184, 184);
+}
+
+.first__nav__conteiner{
+    margin-left: 1em;
+}
+
+.btn-first{
+    color: rgb(184, 184, 184);;
+    border-radius: 10px;
+    margin-right: 2em;
+}
+
+.btn-first:hover{
+    background-color: rgba(128, 128, 128, 0.411);
+    color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+.btn-sign{
+    color: rgb(184, 184, 184);;
+    border-radius: 10px;
+    margin-right: 1em;
+    background-color: rgba(109, 108, 108, 0.199);
+    border-radius: 10px;
+    transition: 0s;
+}
+
+.btn-sign:hover{
+    background-color: rgb(75, 75, 75);
+    color: rgb(201, 198, 198);
+}
+
+#btn-create{
+    border-radius: 15px;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 0;
+    font-weight: bold;
+    color: black;
+    transition: 0s;
+}
+
+#btn-create:hover{
+    color: white;
+    background-color: rgb(255, 58, 124);
+}
+
+
+/* ========================== NAVBAR END ======================= */
+
+
+/* ========================== MAIN ======================= */
+
+
+/* ====================== FIRST CONTEINER=================== */
+
+.first-conteiner{
+    display: flex;
+    margin-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first-wrapper{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.wrapper-info{
+    width: 40em;
+    font-size: 16px;
+    width: 30em;
+    margin-right: 7em;
+    margin-bottom: 10em;
+}
+
+.wrapper-info>h1{
+    font-size: 40px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.wrapper-info>h4{
+    margin-bottom: 4em;
+    font-size: 16px;
+}
+
+.wrapper-frame{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(196, 197, 197, 0.521);
+    transform: rotate(-1.726deg);
+}
+
+.h1{
+    font-weight: bold;
+}
+
+.btn-trial{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(255, 58, 124);
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-trial:hover{
+    background-color: rgb(253, 78, 137);
+}
+
+.btn-trial-second{
+    margin-left: 1.5em;
+}
+
+.btn-trial-second:hover{
+    color: red;
+}
+
+.wrapper-img>video{
+    width: 20em;
+    border-radius: 40px;
+}
+
+
+/* ====================== FIRST CONTEINER END =================== */
+
+
+/* ====================== SECOND CONTEINER =================== */
+
+
+.second-conteiner{
+    margin-top: 5em;
+    display: block;
+}
+
+.reaction-conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.text-reaction{
+    width: 80%;
+    margin-top: 2em;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* ====================== SECOND CONTEINER END =================== */
