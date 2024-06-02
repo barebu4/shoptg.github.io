@@ -79,13 +79,14 @@ body{
     padding-right: 1em;
     margin-right: 0;
     font-weight: bold;
-    color: black;
+    color: white;
     transition: 0s;
+    background-color: rgb(255, 58, 124);
 }
 
 #btn-create:hover{
     color: white;
-    background-color: rgb(255, 58, 124);
+    background-color: rgb(255, 71, 132);
 }
 
 
@@ -199,3 +200,187 @@ body{
 
 
 /* ====================== SECOND CONTEINER END =================== */
+
+
+/* ============================= DESK ============================ */
+
+
+.desk{
+    display: block;
+    margin-top: 10em;
+}
+
+.desk-items{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.desk-item{
+    display: flex;
+    margin-bottom: 7em;
+}
+
+.img-conteiner{
+    width: 30em;
+    background-color: #EEF1FF;
+    padding-top: 5em;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.img-item{
+    width: 70%;
+}
+
+.desk-item>h3{
+    font-weight: bold;
+}
+
+.item-info{
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 25em;
+}
+
+.item-info>p{
+    margin-top: 2em;
+}
+/* ============================= DESK END ============================ */
+
+
+/*============================== RATES ===============================*/
+
+.h2{
+    margin-top: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rates-conteiner{
+    display: block;
+}
+
+.rates-buttons{
+    height: 3em;
+    width: 14em;
+    margin-top: 3em;
+    display: flex;
+    background-color: #EEF1FF;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.second-btn{
+    padding-right: 10px;
+}
+
+.logo-rates{
+    width: 16px;
+}
+
+.btn{
+    height: 1em;
+    padding: 0;
+    background-color: white;
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.rates-item{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    background-color: #F7F7F7;
+    padding: 20px;
+}
+
+.rates-text{
+    display: flex;
+}
+/*============================== RATES END ============================*/
+
+
+/*============================== MORE QUESTIONS ========================*/
+
+
+.questions-conteiner{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10em;
+}
+
+.a-quest:hover{
+    color: red;
+}
+
+#a-quest-first{
+    margin-top: 1em;
+}
+
+.accordion{
+    margin-top: 10em;
+}
+
+.accordion-button{
+    height: 5em;
+}
+
+
+
+/*============================== MORE QUESTIONS END ========================*/
+
+
+/*============================== BOTTOM ===================================*/
+
+
+.bottom-conteiner{
+    display: flex;
+    height: 3em;
+    text-align: center;
+    background-color: #303030;
+    bottom: 0;
+    justify-content: center;
+}
+
+.bottom-conteiner>p{
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(184, 184, 184);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*============================== BOTTOM END =================================*/
+
+
+/* ============================= MEDIA SCREEN ===============================*/
+
+
+@media screen and { 
+    
+}
+
+
+
+
+/* ============================= MEDIA SCREEN END ============================*/
